@@ -1,0 +1,13 @@
+<p>employee table!</p>
+<table>
+    <tr>
+        <th *ngFor="let head of header">
+            {{head}}
+        </th>
+    </tr>
+    <tr *ngFor="let emp of employeeList let i = index">
+        <td id={{i}}{{column}} (dblclick)="textBox(i,column)" *ngFor="let column of header">
+            {{emp[column]}}
+        </td>
+    </tr>
+</table>

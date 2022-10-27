@@ -1,0 +1,28 @@
+table{
+    table-layout: fixed;
+    width:100%;
+    white-space: nowrap;
+    border-radius: 4px;
+    border: 2px solid;
+    
+}
+td,th{
+    padding: 8px 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid;
+
+}
+td:hover{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+
+}
+th:hover{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+}
